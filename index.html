@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+
+<body>
+    <div id="wrapper" class="wrapper">
+        <form name="f1" class="f1">
+            <div>
+                <h2>Please sign up</h2>
+            </div>
+            <input type="text" class="inputField" id="firstName" placeholder="First name" value="">
+            <input type="text" class="inputField" id="lastName" placeholder="Last name" value="">
+            <input type="text" class="inputField" id="email" placeholder="Email addres" value="">
+            <input type="text" class="inputField" id="password" placeholder="Password" value="">
+            <div class="wrapperChekcbox">
+                <input type="checkbox" name="confirmPolicy" id="confirmPolicy">
+                <div> I agree with Privacy Policy.</div>
+            </div>
+            <input type="button" value="Sign Up" id="buttonSign" class="buttonSign" disabled>
+        </form>
+    </div>
+    <div id="modalWrapp" class="hide modalWrapp ">
+        <div class="modal">
+            <div class="modalHead">
+                <i class="uil uil-check-circle"></i>
+            </div>
+            <div class="modalContain">
+                <h1>Great!</h1>
+                <h5>Your account has been created successfully.</h3>
+                    <div id="buttonExploring">
+                        Start Exploring<i class="uil uil-arrow-right"></i>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

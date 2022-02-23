@@ -1,0 +1,109 @@
+.wrapper,
+.f1 {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 220px;
+    height: 30px;
+    margin: 5px 0px;
+
+}
+
+#confirmPolicy {
+    width: 15px;
+}
+
+.wrapperChekcbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonSign {
+    background-color: #16b4f1;
+    color: aliceblue;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.valid {
+    border: 3px solid green;
+    border-radius: 2px;
+}
+
+.noValid {
+    border: 3px solid red;
+    border-radius: 2px;
+}
+
+.modalWrapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(129, 129, 129, 0.8);
+}
+
+.modal {
+
+    width: 345px;
+    height: 260px;
+    border: 1px black solid;
+}
+
+.modalHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    font-size: 50px;
+    color: aliceblue;
+
+}
+
+.modalContain {
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#buttonExploring {
+
+    margin: 0 auto;
+    width: 130px;
+    height: 30px;
+
+    border-radius: 10px;
+    background-color: coral;
+    color: aliceblue;
+}
+
+#buttonExploring:hover {
+    background-color: rgb(247, 102, 49);
+}
+
+.show {
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
